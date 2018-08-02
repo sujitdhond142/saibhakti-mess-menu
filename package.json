@@ -1,0 +1,21 @@
+{
+  "name": "mess-menu",
+  "version": "1.0.0",
+  "description": "get saibhakti mess menu instantly",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js > menu.txt",
+    "start-windows": "node index.js > menu.txt && notepad menu.txt",
+    "start-linux": "node index.js > menu.txt && cat menu.txt"
+  },
+  "keywords": [
+    "js",
+    "nodejs"
+  ],
+  "author": "S.P.D.",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.2.0"
+  }
+}
