@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js > menu.txt",
     "start-windows": "node index.js > menu.txt && notepad menu.txt",
-    "start-linux": "node index.js > menu.txt && cat menu.txt"
+    "start-linux": "node index.js > menu.txt && gedit menu.txt"
   },
   "keywords": [
     "js",
