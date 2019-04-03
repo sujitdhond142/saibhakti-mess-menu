@@ -1,3 +1,4 @@
+// coded by S.P.D.
 var fetch = require('node-fetch')
 var cheerio = require('cheerio');
 
